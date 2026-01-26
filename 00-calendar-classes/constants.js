@@ -1,5 +1,5 @@
 // Compiled using wl-onestop 1.0.0 (TypeScript 4.9.5)
-const VERSION = "1.4";
+const VERSION = "1.5";
 
 var _a, _b;
 var CHURCHWIDE_CALENDAR_ID = 'c_2f60136210a2f5edd3666b27c2d4dae4d2c80f8d879a2d4140e9013a3e17a4f6@group.calendar.google.com';
@@ -11,7 +11,7 @@ var JOYLAND_CALENDAR_ID = 'c_978aa946f2a781552f4567c954f8d128c2cda12cb54aff67892
 var WEEKLY_CALENDAR_ID = 'c_01fe3393b0ad531984cd140bd46bf339aa5d2d9fdfd047a5135c13c8ae10e34d@group.calendar.google.com';
 var IS_ALL_DAY = function (stringToCheck) { return stringToCheck === "all day" || stringToCheck === "All day" || stringToCheck === "All Day" || stringToCheck === "ALL DAY"; };
 //var ONESTOP_WEEK_TAB_REGEX = /\d{1,2}\/\d{1,2}[A-Za-z]{3}-([A-Za-z]{3})?\d{1,2}\/\d{1,2}[A-Za-z]{3}(?:\(WIP\))?/;
-var ONESTOP_WEEK_TAB_REGEX = /^(\d{1,2}\/\d{1,2})-(\d{1,2}\/\d{1,2})\s*\(WK([0-9]*)\)$/;
+var ONESTOP_WEEK_TAB_REGEX = /^(\d{1,2}\/\d{1,2})\s?-\s?(\d{1,2}\/\d{1,2})\s*\(WK([0-9]*)\)$/;
 var ONESTOP_COLUMN_VALUES = {
     MINISTRY: 1,
     START: 2,
