@@ -2,13 +2,6 @@
 const VERSION = "1.5";
 
 var _a, _b;
-var CHURCHWIDE_CALENDAR_ID = 'c_2f60136210a2f5edd3666b27c2d4dae4d2c80f8d879a2d4140e9013a3e17a4f6@group.calendar.google.com';
-var INTL_CALENDAR_ID = 'c_389070cca9e2ceff2f8de338ffbef3420ea53a93c185ec1701a5de5fb8385d06@group.calendar.google.com';
-var COLLEGE_CALENDAR_ID = 'c_ec861eac95dc475be498a1ed88c8036614aebd20acd8277b538cf037817fe93a@group.calendar.google.com';
-var CHILDCARE_CALENDAR_ID = 'c_8e7fe09dca16bc299b1a41ad9ad74e37ecd641be0da415f5089fbe3864244a61@group.calendar.google.com';
-var YOUTH_CALENDAR_ID = 'c_4bb8da6d790ee3e432174728e34a9af48c2286f0e3a330155fe9c41b4fa04a10@group.calendar.google.com';
-var JOYLAND_CALENDAR_ID = 'c_978aa946f2a781552f4567c954f8d128c2cda12cb54aff678920b6710ace27b8@group.calendar.google.com';
-var WEEKLY_CALENDAR_ID = 'c_01fe3393b0ad531984cd140bd46bf339aa5d2d9fdfd047a5135c13c8ae10e34d@group.calendar.google.com';
 var IS_ALL_DAY = function (stringToCheck) { return stringToCheck === "all day" || stringToCheck === "All day" || stringToCheck === "All Day" || stringToCheck === "ALL DAY"; };
 //var ONESTOP_WEEK_TAB_REGEX = /\d{1,2}\/\d{1,2}[A-Za-z]{3}-([A-Za-z]{3})?\d{1,2}\/\d{1,2}[A-Za-z]{3}(?:\(WIP\))?/;
 var ONESTOP_WEEK_TAB_REGEX = /^(\d{1,2}\/\d{1,2})\s?-\s?(\d{1,2}\/\d{1,2})\s*\(WK([0-9]*)\)$/;
